@@ -1,6 +1,7 @@
 <!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [JetBrains全家桶 IDE 常用技巧](#jetbrains全家桶-ide-常用技巧)   
+   - [激活](#激活)   
    - [启用Vim](#启用vim)   
    - [启用Vim相对行号](#启用vim相对行号)   
    - [鼠标滚动放大/缩小字体](#鼠标滚动放大缩小字体)   
@@ -15,6 +16,51 @@
 
 <!-- /MDTOC -->
 # JetBrains全家桶 IDE 常用技巧
+
+## 激活
+
+1. 套路：重置试用来达到无限试用目的(试用期将过时重新操作一番)
+
+* 参考：<https://gitee.com/pengzhile/ide-eval-resetter>
+
+```
+1. Download and install plugin from [Download Link](https://plugins.zhile.io/files/ide-eval-resetter-2.1.14-d2fedb86.zip).
+    * Alternative installation method:
+        * Add "Custom Plugin Repository": `https://plugins.zhile.io` manually (`Settings/Preferences` -> `Plugins`)
+        * Search and install plugin: `IDE Eval Reset`
+2. Click `Help` or `Get Help` -> `Eval Reset` menu.
+3. Click `Reset` -> `Yes` button.
+4. Restart your IDE.
+5. Now you have another 30 days eval time :)
+6. For more information, visit [here](https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html).
+```
+
+
+![20210718_121110_31](image/20210718_121110_31.png)
+
+添加仓库
+
+
+```
+https://plugins.zhile.io
+```
+
+![20210718_121136_48](image/20210718_121136_48.png)
+
+安装 IDE Eval Reset
+
+![20210718_121222_14](image/20210718_121222_14.png)
+
+![20210718_121231_41](image/20210718_121231_41.png)
+
+Reset 重置试用，延长一个月试用期
+
+![20210718_121323_19](image/20210718_121323_19.png)
+
+![20210718_121346_12](image/20210718_121346_12.png)
+
+
+![20210718_121426_16](image/20210718_121426_16.png)
 
 ## 启用Vim
 
