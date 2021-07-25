@@ -211,6 +211,17 @@ Ctrl + Shift + u(小写)
 Ctrl + Tab
 ```
 
+## 代码折叠及展开
+
+```
+所有代码折叠：Ctrl  +Alt + -
+所有代码展开：Ctrl + Alt + +
+折叠某一点：Ctrl + -
+展开某一层：Ctrl + +
+```
+
+
+
 
 
 
