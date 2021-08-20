@@ -15,7 +15,14 @@
    - [快速实现接口](#快速实现接口)   
    - [修改注释颜色](#修改注释颜色)   
    - [选中区域大小写转换](#选中区域大小写转换)   
-   - [Goland配置源代理](#Goland配置源代理)   
+   - [已打开文件之间切换](#已打开文件之间切换)   
+   - [代码折叠及展开](#代码折叠及展开)   
+   - [GoLand](#goland)   
+      - [Goland配置源代理](#goland配置源代理)   
+      - [Goland配置GOPATH（未启用module）](#goland配置gopath（未启用module）)   
+   - [PyCharm](#pycharm)   
+   - [Clion](#clion)   
+   - [IDEA](#idea)   
 
 <!-- /MDTOC -->
 # JetBrains全家桶 IDE 常用技巧
@@ -221,7 +228,9 @@ Ctrl + Tab
 展开某一层：Ctrl + +
 ```
 
-## Goland配置源代理
+## GoLand
+
+### Goland配置源代理
 
 ```
 GOPROXY = https://goproxy.cn,direct
@@ -232,7 +241,7 @@ GOPROXY = https://goproxy.cn,direct
 ![20210726_110820_54](image/20210726_110820_54.png)
 
 
-## Goland配置GOPATH（未启用module）
+### Goland配置GOPATH（未启用module）
 
 
 * Golang 的包搜索是从 GOPATH 和 GOROOT 路径下搜索
@@ -242,9 +251,15 @@ GOPROXY = https://goproxy.cn,direct
 ```/home/nicyou/git/zinx/src```
 
 
-![20210820_090349_75](image/20210820_090349_75.png) 
+![20210820_090349_75](image/20210820_090349_75.png)
+
+## PyCharm
 
 
+## Clion
+
+
+## IDEA
 
 
 
