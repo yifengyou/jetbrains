@@ -222,7 +222,7 @@ Ctrl + Tab
 ## 代码折叠及展开
 
 ```
-所有代码折叠：Ctrl  +Alt + -
+所有代码折叠：Ctrl  + Alt + -
 所有代码展开：Ctrl + Alt + +
 折叠某一点：Ctrl + -
 展开某一层：Ctrl + +
@@ -252,6 +252,14 @@ GOPROXY = https://goproxy.cn,direct
 
 
 ![20210820_090349_75](image/20210820_090349_75.png)
+
+
+1. GOPATH添加工程路径
+2. 工程目录下必须包含src目录
+3. 工程目录下引用则可以直接写，自动匹配到工程路径下
+4. src避免与GOROOT/GOPATH src 重名，默认根据PATH优先匹配原则，冲突建议rename
+
+
 
 ## PyCharm
 
