@@ -231,4 +231,21 @@ GOPROXY = https://goproxy.cn,direct
 
 ![20210726_110820_54](image/20210726_110820_54.png)
 
+
+## Goland配置GOPATH（未启用module）
+
+
+* Golang 的包搜索是从 GOPATH 和 GOROOT 路径下搜索
+* 源码必须要放在 GOROOT 或 GOPATH 的 **src 目录下**才能找到
+
+例如新增GOPATH配置路径为```/home/nicyou/git/zinx```，则实际生效的路径应该是
+```/home/nicyou/git/zinx/src```
+
+
+![20210820_090349_75](image/20210820_090349_75.png) 
+
+
+
+
+
 ---
